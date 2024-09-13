@@ -1,0 +1,43 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+   
+    
+    
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: pink;
+    color: rgb(245, 3, 3);
+   font-size: 40px;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box:hover{
+    background-color: rgb(171, 47, 67);
+}
+#game-board{
+    height: 60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+.info-box {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #333;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 200px;
+    background-color: #f9f9f9;
+}
